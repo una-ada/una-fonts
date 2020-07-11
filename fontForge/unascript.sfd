@@ -38,7 +38,7 @@ OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 9 8 "'kern' Horizontal Kerning in Latin lookup 0-1"
+KernClass2: 9 9 "'kern' Horizontal Kerning in Latin lookup 0-1"
  6 zero O
  11 seven F P Y
  1 A
@@ -54,7 +54,8 @@ KernClass2: 9 8 "'kern' Horizontal Kerning in Latin lookup 0-1"
  7 b h i k
  1 j
  3 T Y
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -50 {} -50 {} -40 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -90 {} 0 {} 0 {} -80 {} -100 {} 0 {} -50 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -40 {} 0 {} -80 {} -80 {} -70 {} 0 {} -100 {} -160 {} -170 {} -140 {} -200 {} 0 {} -190 {} 0 {} -30 {} -100 {} -100 {} -30 {} -150 {} 0 {} -120 {} 0 {} 0 {} -30 {} -40 {} 0 {} -70 {} -50 {} -80 {}
+ 294 exclam numbersign dollar percent ampersand parenleft parenright plus hyphen slash zero one two three four five six seven eight nine colon semicolon less equal greater question at A B C D E F G H I J K L M N O P Q R S U W X Z bracketleft bracketright d f g l m n q s t x braceleft bar braceright
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -50 {} -50 {} -40 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -90 {} 0 {} 0 {} -80 {} -100 {} 0 {} 0 {} -50 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -40 {} 0 {} -80 {} -80 {} -70 {} 0 {} 0 {} -100 {} -160 {} -170 {} -140 {} -200 {} 0 {} -190 {} -130 {} 0 {} -30 {} -100 {} -100 {} -30 {} -150 {} 0 {} -120 {} 0 {} 0 {} 0 {} -30 {} -40 {} 0 {} -70 {} -50 {} -80 {} 0 {}
 LangName: 1033
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -70,7 +71,7 @@ BeginChars: 256 94
 StartChar: exclam
 Encoding: 33 33 0
 Width: 191
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -126,8 +127,8 @@ EndChar
 StartChar: numbersign
 Encoding: 35 35 2
 Width: 421
-Flags: HW
-HStem: 510.19 89.9697<16.8282 54.9685> 607.67 21G<191.894 195.514> 617.31 21G<304.669 314.839>
+Flags: W
+HStem: 510.19 89.9697<16.8284 54.9688> 607.67 21G<191.894 195.514> 617.31 21G<304.669 314.839>
 LayerCount: 2
 Fore
 SplineSet
@@ -181,9 +182,9 @@ EndChar
 StartChar: dollar
 Encoding: 36 36 3
 Width: 371
-Flags: HW
-HStem: 276.55 90.8301<41.1958 180.774>
-VStem: 175.615 83.1094<183.33 271.749> 181.645 90.0303<208.126 277.48>
+Flags: W
+HStem: 276.55 90.8301<41.1962 180.775>
+VStem: 175.616 83.1094<183.33 271.749> 181.646 90.0303<208.126 277.48>
 LayerCount: 2
 Fore
 SplineSet
@@ -690,9 +691,9 @@ EndChar
 StartChar: four
 Encoding: 52 52 19
 Width: 305
-Flags: HW
+Flags: W
 HStem: 414.77 92.4102<100.728 199.427>
-VStem: 11.4674 88.7305<505.807 507.18 508.062 571.031 632.09 655.57> 205.738 89.9502<309.487 426.02 514.034 675.8>
+VStem: 11.4678 88.7305<505.807 507.18 508.062 571.031 632.09 655.57> 205.738 89.9502<309.487 426.02 514.034 675.8>
 LayerCount: 2
 Fore
 SplineSet
@@ -1293,7 +1294,7 @@ EndChar
 StartChar: E
 Encoding: 69 69 36
 Width: 286
-Flags: HW
+Flags: W
 HStem: 255.835 90.6914<109.286 211.59>
 LayerCount: 2
 Fore
@@ -1534,7 +1535,7 @@ EndChar
 StartChar: M
 Encoding: 77 77 44
 Width: 459
-Flags: HW
+Flags: W
 VStem: 356.61 88.3809<318.533 460.881>
 LayerCount: 2
 Fore
@@ -1890,9 +1891,9 @@ EndChar
 StartChar: W
 Encoding: 87 87 54
 Width: 502
-Flags: HW
+Flags: W
 HStem: 542.316 89.9727<315.85 396.112>
-VStem: 10.5761 88.8604<460.868 589.193>
+VStem: 10.5762 88.8604<460.868 589.193>
 LayerCount: 2
 Fore
 SplineSet
