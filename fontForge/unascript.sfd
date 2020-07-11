@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1594321298
-ModificationTime: 1594480608
+ModificationTime: 1594481248
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -35,8 +35,11 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 1 1 "'kern' Horizontal Kerning in Latin lookup 0-1"
+ 0 {}
 LangName: 1033
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -915,7 +918,6 @@ SplineSet
  150.719726562 316.314453125 140.361328125 289.771484375 117.600585938 279.7890625 c 0
  111.720703125 277.209960938 105.584960938 275.98828125 99.55078125 275.98828125 c 0
 EndSplineSet
-Kerns2: 8 -80 "I am going to die.-1"
 EndChar
 
 StartChar: semicolon
