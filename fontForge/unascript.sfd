@@ -38,19 +38,20 @@ OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 6 7 "'kern' Horizontal Kerning in Latin lookup 0-1"
+KernClass2: 7 7 "'kern' Horizontal Kerning in Latin lookup 0-1"
  1 A
  1 T
  11 seven F P Y
  21 a c e m n o r s u v w
  1 q
+ 7 g j y z
  23 comma period underscore
  47 quotedbl quotesingle asterisk asciicircum grave
  11 V backslash
  15 a c e o r u v w
  7 b h i k
  1 j
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -90 {} 0 {} 0 {} -80 {} 0 {} -50 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -40 {} 0 {} -80 {} -80 {} 0 {} -100 {} -160 {} -170 {} -140 {} -200 {} 0 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -90 {} 0 {} 0 {} -80 {} 0 {} -50 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -40 {} 0 {} -80 {} -80 {} 0 {} -100 {} -160 {} -170 {} -140 {} -200 {} 0 {} 0 {} -30 {} -100 {} -100 {} -30 {} -150 {} 0 {}
 LangName: 1033
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -2398,8 +2399,8 @@ EndChar
 StartChar: g
 Encoding: 103 103 70
 Width: 423
-Flags: HW
-HStem: 272.679 89.998<100.541 212.436> 447.433 90.0029<143.181 226.031>
+Flags: W
+HStem: 272.679 89.998<100.541 212.436> 447.433 90.0029<143.181 226.03>
 LayerCount: 2
 Fore
 SplineSet
@@ -3036,9 +3037,9 @@ EndChar
 StartChar: y
 Encoding: 121 121 88
 Width: 379
-Flags: HW
-HStem: -195.434 88.75<168.803 278.65> 284.033 88.3193<104.092 179.15>
-VStem: 10.0148 90.0781<375.295 529.427>
+Flags: W
+HStem: -195.434 88.75<168.803 278.65> 284.033 88.3193<104.092 179.149>
+VStem: 10.0146 90.0781<375.295 529.427>
 LayerCount: 2
 Fore
 SplineSet
@@ -3085,9 +3086,9 @@ EndChar
 StartChar: z
 Encoding: 122 122 89
 Width: 410
-Flags: HW
-HStem: -111.329 89.999<141.504 288.188> 75.7451 90<159.181 305.94> 469.095 89.6787<16.2355 142.201>
-VStem: 36.3943 90.002<-4.35746 45.4341>
+Flags: W
+HStem: -111.329 89.999<141.504 288.188> 75.7451 90<159.181 305.941> 469.095 89.6787<16.2358 142.201>
+VStem: 36.3945 90.002<-4.35746 45.4341>
 LayerCount: 2
 Fore
 SplineSet
