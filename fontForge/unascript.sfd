@@ -38,7 +38,7 @@ OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 9 7 "'kern' Horizontal Kerning in Latin lookup 0-1"
+KernClass2: 9 8 "'kern' Horizontal Kerning in Latin lookup 0-1"
  6 zero O
  11 seven F P Y
  1 A
@@ -53,7 +53,8 @@ KernClass2: 9 7 "'kern' Horizontal Kerning in Latin lookup 0-1"
  15 a c e o r u v w
  7 b h i k
  1 j
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -50 {} -50 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -90 {} 0 {} 0 {} -80 {} 0 {} -50 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} -100 {} -40 {} 0 {} -80 {} -80 {} 0 {} -100 {} -160 {} -170 {} -140 {} -200 {} 0 {} 0 {} -30 {} -100 {} -100 {} -30 {} -150 {} 0 {} 0 {} 0 {} -30 {} -40 {} 0 {} -70 {} -50 {}
+ 3 T Y
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -50 {} -50 {} -40 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -90 {} 0 {} 0 {} -80 {} -100 {} 0 {} -50 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -40 {} 0 {} -80 {} -80 {} -70 {} 0 {} -100 {} -160 {} -170 {} -140 {} -200 {} 0 {} -190 {} 0 {} -30 {} -100 {} -100 {} -30 {} -150 {} 0 {} -120 {} 0 {} 0 {} -30 {} -40 {} 0 {} -70 {} -50 {} -80 {}
 LangName: 1033
 Encoding: ISO8859-1
 UnicodeInterp: none
