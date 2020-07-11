@@ -38,10 +38,12 @@ OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2 2 "'kern' Horizontal Kerning in Latin lookup 0-1"
+KernClass2: 3 3 "'kern' Horizontal Kerning in Latin lookup 0-1"
  1 T
+ 21 a c e m n o r s u v w
  15 a c e o r u v w
- 0 {} 0 {} 0 {} -60 {}
+ 7 b h i k
+ 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} -80 {}
 LangName: 1033
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -2190,8 +2192,8 @@ EndChar
 StartChar: b
 Encoding: 98 98 65
 Width: 457
-Flags: HW
-HStem: 460.63 90<229.353 332.147>
+Flags: W
+HStem: 460.63 90<229.354 332.147>
 LayerCount: 2
 Fore
 SplineSet
@@ -2430,7 +2432,7 @@ EndChar
 StartChar: h
 Encoding: 104 104 71
 Width: 479
-Flags: HW
+Flags: W
 HStem: 426.283 90<266.91 330.513>
 LayerCount: 2
 Fore
@@ -2459,7 +2461,7 @@ EndChar
 StartChar: i
 Encoding: 105 105 72
 Width: 315
-Flags: HW
+Flags: W
 HStem: 614.99 87.7607<55.9353 140.757> 623.263 90<16.5146 101.965>
 VStem: 10 134.925<629.778 699.31>
 LayerCount: 2
@@ -2540,7 +2542,7 @@ EndChar
 StartChar: k
 Encoding: 107 107 74
 Width: 468
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -2642,9 +2644,9 @@ EndChar
 StartChar: n
 Encoding: 110 110 77
 Width: 371
-Flags: HW
+Flags: W
 HStem: 255.38 297.963
-VStem: 70.205 88.5576<261.943 378.396> 271.89 89.3691<280.777 421.675>
+VStem: 70.2051 88.5576<261.943 378.396> 271.89 89.3691<280.777 421.675>
 LayerCount: 2
 Fore
 SplineSet
@@ -2951,7 +2953,9 @@ EndChar
 StartChar: w
 Encoding: 119 119 86
 Width: 380
-Flags: HW
+Flags: W
+HStem: 292.843 89.999<236.676 275.989>
+VStem: 10.292 89.7881<367.293 514.063> 280.582 90<385.891 457.595>
 LayerCount: 2
 Fore
 SplineSet
