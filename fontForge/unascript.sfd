@@ -38,12 +38,15 @@ OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 3 3 "'kern' Horizontal Kerning in Latin lookup 0-1"
+KernClass2: 5 4 "'kern' Horizontal Kerning in Latin lookup 0-1"
  1 T
  21 a c e m n o r s u v w
+ 11 seven F P Y
+ 1 q
  15 a c e o r u v w
  7 b h i k
- 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} -80 {}
+ 23 comma period underscore
+ 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} -50 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} -140 {} -200 {} -100 {}
 LangName: 1033
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -476,9 +479,9 @@ EndChar
 StartChar: comma
 Encoding: 44 44 11
 Width: 126
-Flags: HW
+Flags: W
 HStem: 193.862 179.659<27.0337 92.1788>
-VStem: 19.7509 70.5029<195.982 280.115> 23.4101 86.0332<267.468 369.985>
+VStem: 19.751 70.5029<195.982 280.115> 23.4102 86.0332<267.468 369.985>
 LayerCount: 2
 Fore
 SplineSet
@@ -518,7 +521,7 @@ EndChar
 StartChar: period
 Encoding: 46 46 13
 Width: 116
-Flags: HW
+Flags: W
 VStem: 13.2373 89.6396<268.98 361.472>
 LayerCount: 2
 Fore
@@ -789,8 +792,8 @@ EndChar
 StartChar: seven
 Encoding: 55 55 22
 Width: 361
-Flags: HW
-HStem: 528.04 127.76<22.821 101.952>
+Flags: W
+HStem: 528.04 127.76<22.8213 101.952>
 LayerCount: 2
 Fore
 SplineSet
@@ -1317,9 +1320,9 @@ EndChar
 StartChar: F
 Encoding: 70 70 37
 Width: 359
-Flags: HW
+Flags: W
 HStem: 555.22 87.2998<133.526 312.622>
-VStem: 84.3919 89.96<290.689 395.323>
+VStem: 84.3916 89.96<290.689 395.323>
 LayerCount: 2
 Fore
 SplineSet
@@ -1630,9 +1633,9 @@ EndChar
 StartChar: P
 Encoding: 80 80 47
 Width: 315
-Flags: HW
-HStem: 413.495 90.1699<140.469 198.413>
-VStem: 13.059 292.156
+Flags: W
+HStem: 413.495 90.1699<140.469 198.412>
+VStem: 13.0586 292.156
 LayerCount: 2
 Fore
 SplineSet
@@ -2755,9 +2758,9 @@ EndChar
 StartChar: q
 Encoding: 113 113 80
 Width: 436
-Flags: HW
+Flags: W
 HStem: -64 89.999<247.712 331.001> 114.147 89.999<252.075 323.092> 267.106 90<102.019 165.865> 516.012 20G<167.397 189.766 204.994 217.716>
-VStem: 10.0042 90<371.223 411.243> 154.164 90.001<32.2747 111.999> 169.696 98.8975<357.246 438.344> 336.409 90<30.4739 100.87>
+VStem: 10.0039 90<371.223 411.243> 154.164 90.001<32.2747 111.999> 169.696 98.8975<357.246 438.344> 336.409 90<30.4739 100.87>
 LayerCount: 2
 Fore
 SplineSet
@@ -2805,9 +2808,9 @@ EndChar
 StartChar: r
 Encoding: 114 114 81
 Width: 252
-Flags: HW
-HStem: 450.788 80.1357<149.679 238.115>
-VStem: 60.2235 88.2158<336.471 406.385>
+Flags: W
+HStem: 450.788 80.1357<149.678 238.114>
+VStem: 60.2236 88.2158<336.471 406.385>
 LayerCount: 2
 Fore
 SplineSet
@@ -2902,9 +2905,9 @@ EndChar
 StartChar: u
 Encoding: 117 117 84
 Width: 286
-Flags: HW
+Flags: W
 HStem: 256.109 90<132.56 178.23>
-VStem: 10.2059 89.5938<388.779 510.976> 186.255 90<350.219 463.802>
+VStem: 10.2061 89.5938<388.779 510.976> 186.255 90<350.219 463.802>
 LayerCount: 2
 Fore
 SplineSet
@@ -2930,7 +2933,7 @@ EndChar
 StartChar: v
 Encoding: 118 118 85
 Width: 288
-Flags: HW
+Flags: W
 HStem: 282.562 279.857<194.744 214.71>
 VStem: 188.229 90<402.959 555.904>
 LayerCount: 2
