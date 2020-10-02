@@ -1,0 +1,4 @@
+2020.07.11 (0001.0000 in metadata)
+- Initial release
+- Added U0000 Basic Latin coverage
+- Initial kerning tables
