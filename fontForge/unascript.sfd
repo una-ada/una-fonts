@@ -5,7 +5,7 @@ FamilyName: Una
 Weight: Regular
 Copyright: Lol, take it, see if I fucking care. - Una Ada
 UComments: "2020-7-9: Created with FontForge (http://fontforge.org)"
-Version: 2020.10.02
+Version: 2020.10.04
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1594321298
-ModificationTime: 1601696770
+ModificationTime: 1601868130
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ KernClass2: 10 10 "'kern' Horizontal Kerning in Latin lookup 0-1"
  137 a c e m n o r s u v w agrave aacute atilde adieresis aring egrave eacute edieresis ograve oacute otilde odieresis ugrave uacute udieresis
  1 q
  24 g j y z yacute ydieresis
- 19 b d f h i k l p t x
+ 25 b d f h i k l p t x thorn
  7 section
  23 comma period underscore
  47 quotedbl quotesingle asterisk asciicircum grave
@@ -76,7 +76,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 26 26 10
+WinInfo: 52 26 10
 BeginPrivate: 2
 BlueValues 32 [-20 30 250 270 360 380 470 490]
 BlueScale 8 0.039625
@@ -5842,38 +5842,43 @@ EndChar
 
 StartChar: thorn
 Encoding: 254 254 135
-Width: 378
+Width: 377
 Flags: W
-HStem: 18 90<165.678 256.952> 244 90<158.451 270.704>
-VStem: 79 90<-57.0391 18.041> 279 90<130.541 233.773>
+HStem: -34 90<164.664 274.404> 151 90<135.741 256.874>
+VStem: 10 90<228.266 389.994> 85 90<-167.712 -30.3219> 278 90<63.4691 129.945>
 LayerCount: 2
 Fore
 SplineSet
-321 300 m 0
- 343 281 369 248 369 190 c 0
- 369 149 354 107 329 75 c 0
- 300 38 259 18 216 18 c 0
- 197 18 181 19 165 23 c 1
- 167 10 168 -3 169 -16 c 0
- 169 -17 169 -18 169 -19 c 0
- 169 -42 151 -62 127 -64 c 0
- 126 -64 125 -64 124 -64 c 0
- 101 -64 81 -46 79 -22 c 0
- 71 83 49 202 12 340 c 0
- 11 344 10 348 10 353 c 0
- 10 372 23 390 43 395 c 0
- 47 396 51 397 56 397 c 0
- 75 397 93 384 98 364 c 0
- 104 343 109 322 114 302 c 1
- 145 323 178 334 212 334 c 0
- 256 334 293 322 321 300 c 0
-216 108 m 0
- 252 108 279 151 279 190 c 0
- 279 204 279 244 212 244 c 0
- 187 244 162 230 137 202 c 1
- 142 177 147 153 151 129 c 0
- 153 127 155 126 156 124 c 0
- 164 117 177 108 216 108 c 0
+315 198 m 0xe8
+ 349 169 368 130 368 92 c 0
+ 368 56 352 23 323 -0 c 0
+ 296 -22 260 -34 218 -34 c 0
+ 197 -34 179 -31 164 -26 c 1
+ 169 -59 173 -93 175 -127 c 0
+ 175 -128 175 -128 175 -129 c 0
+ 175 -153 156 -173 133 -175 c 0
+ 132 -175 131 -175 130 -175 c 0
+ 106 -175 86 -157 85 -133 c 0xd8
+ 75 18 10 199 10 341 c 0
+ 10 345 10 349 10 353 c 0
+ 11 377 31 397 54 397 c 0
+ 55 397 55 397 56 397 c 0
+ 80 396 100 377 100 353 c 0
+ 100 352 100 352 100 351 c 0
+ 100 349 100 346 100 343 c 0
+ 100 311 106 270 114 226 c 1
+ 138 236 168 241 207 241 c 2
+ 208 241 l 2
+ 245 241 284 225 315 198 c 0xe8
+218 56 m 0
+ 246 56 278 65 278 92 c 0
+ 278 119 240 151 208 151 c 2
+ 207 151 l 2
+ 170 151 153 146 145 141 c 0
+ 141 139 137 136 135 128 c 0
+ 137 115 140 103 142 90 c 0
+ 144 90 145 89 146 88 c 0
+ 171 69 188 56 218 56 c 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -6335,7 +6340,7 @@ SplineSet
  160 -8 159 -8 158 -8 c 0
  150 -9 143 -10 135 -10 c 0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: ccedilla
@@ -6486,6 +6491,7 @@ LayerCount: 2
 Fore
 Refer: 61 94 N 0.899108 0 0 0.886232 -53.1361 71.7116 2
 Refer: 168 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: idieresis
