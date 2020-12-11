@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1594321298
-ModificationTime: 1601868130
+ModificationTime: 1601872347
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
@@ -76,14 +76,14 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 52 26 10
+WinInfo: 884 26 10
 BeginPrivate: 2
 BlueValues 32 [-20 30 250 270 360 380 470 490]
 BlueScale 8 0.039625
 EndPrivate
 TeXData: 1 0 0 203423 101711 67807 276824 1048576 67807 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom" "'abvm' Above Base Mark in Latin lookup 1-1" "top" "'abvm' Above Base Mark in Latin lookup 1-1"
-BeginChars: 1114112 192
+BeginChars: 1114112 198
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -1169,6 +1169,7 @@ EndChar
 
 StartChar: semicolon
 Encoding: 59 59 26
+AltUni2: 00037e.ffffffff.0
 Width: 159
 VWidth: 720
 Flags: W
@@ -1436,6 +1437,7 @@ EndChar
 
 StartChar: A
 Encoding: 65 65 32
+AltUni2: 000410.ffffffff.0 000391.ffffffff.0
 Width: 393
 VWidth: 720
 Flags: W
@@ -1478,6 +1480,7 @@ EndChar
 
 StartChar: B
 Encoding: 66 66 33
+AltUni2: 000412.ffffffff.0 000392.ffffffff.0
 Width: 424
 VWidth: 720
 Flags: W
@@ -1535,6 +1538,7 @@ EndChar
 
 StartChar: C
 Encoding: 67 67 34
+AltUni2: 000421.ffffffff.0
 Width: 360
 VWidth: 720
 Flags: W
@@ -1603,6 +1607,7 @@ EndChar
 
 StartChar: E
 Encoding: 69 69 36
+AltUni2: 000415.ffffffff.0 000395.ffffffff.0
 Width: 286
 VWidth: 720
 Flags: W
@@ -1737,6 +1742,7 @@ EndChar
 
 StartChar: H
 Encoding: 72 72 39
+AltUni2: 00041d.ffffffff.0 000397.ffffffff.0
 Width: 403
 VWidth: 720
 Flags: W
@@ -1778,6 +1784,7 @@ EndChar
 
 StartChar: I
 Encoding: 73 73 40
+AltUni2: 000406.ffffffff.0 000399.ffffffff.0
 Width: 198
 VWidth: 720
 Flags: W
@@ -1807,6 +1814,7 @@ EndChar
 
 StartChar: J
 Encoding: 74 74 41
+AltUni2: 000408.ffffffff.0
 Width: 265
 VWidth: 720
 Flags: W
@@ -1844,6 +1852,7 @@ EndChar
 
 StartChar: K
 Encoding: 75 75 42
+AltUni2: 00041a.ffffffff.0 00039a.ffffffff.0
 Width: 491
 VWidth: 720
 Flags: W
@@ -1914,6 +1923,7 @@ EndChar
 
 StartChar: M
 Encoding: 77 77 44
+AltUni2: 00041c.ffffffff.0 00039c.ffffffff.0
 Width: 459
 VWidth: 720
 Flags: W
@@ -1954,6 +1964,7 @@ EndChar
 
 StartChar: N
 Encoding: 78 78 45
+AltUni2: 00039d.ffffffff.0
 Width: 428
 VWidth: 720
 Flags: W
@@ -2000,6 +2011,7 @@ EndChar
 
 StartChar: O
 Encoding: 79 79 46
+AltUni2: 00041e.ffffffff.0 00039f.ffffffff.0
 Width: 381
 VWidth: 720
 Flags: W
@@ -2041,6 +2053,7 @@ EndChar
 
 StartChar: P
 Encoding: 80 80 47
+AltUni2: 000420.ffffffff.0 0003a1.ffffffff.0
 Width: 315
 VWidth: 720
 Flags: W
@@ -2191,6 +2204,7 @@ EndChar
 
 StartChar: S
 Encoding: 83 83 50
+AltUni2: 000405.ffffffff.0
 Width: 407
 VWidth: 720
 Flags: W
@@ -2239,6 +2253,7 @@ EndChar
 
 StartChar: T
 Encoding: 84 84 51
+AltUni2: 000422.ffffffff.0 0003a4.ffffffff.0
 Width: 355
 VWidth: 720
 Flags: W
@@ -2386,6 +2401,7 @@ EndChar
 
 StartChar: X
 Encoding: 88 88 55
+AltUni2: 000425.ffffffff.0 0003a7.ffffffff.0
 Width: 423
 VWidth: 720
 Flags: W
@@ -2424,6 +2440,7 @@ EndChar
 
 StartChar: Y
 Encoding: 89 89 56
+AltUni2: 0003a5.ffffffff.0
 Width: 350
 VWidth: 720
 Flags: W
@@ -2712,6 +2729,7 @@ EndChar
 
 StartChar: a
 Encoding: 97 97 64
+AltUni2: 000430.ffffffff.0
 Width: 435
 VWidth: 720
 Flags: W
@@ -2806,6 +2824,7 @@ EndChar
 
 StartChar: c
 Encoding: 99 99 66
+AltUni2: 000441.ffffffff.0
 Width: 329
 VWidth: 720
 Flags: W
@@ -2891,6 +2910,7 @@ EndChar
 
 StartChar: e
 Encoding: 101 101 68
+AltUni2: 000435.ffffffff.0
 Width: 368
 VWidth: 720
 Flags: W
@@ -3069,6 +3089,7 @@ EndChar
 
 StartChar: i
 Encoding: 105 105 72
+AltUni2: 000456.ffffffff.0
 Width: 315
 VWidth: 720
 Flags: W
@@ -3108,6 +3129,7 @@ EndChar
 
 StartChar: j
 Encoding: 106 106 73
+AltUni2: 000458.ffffffff.0
 Width: 326
 VWidth: 720
 Flags: W
@@ -3331,6 +3353,7 @@ EndChar
 
 StartChar: o
 Encoding: 111 111 78
+AltUni2: 00043e.ffffffff.0 0003bf.ffffffff.0
 Width: 363
 VWidth: 720
 Flags: W
@@ -3373,6 +3396,7 @@ EndChar
 
 StartChar: p
 Encoding: 112 112 79
+AltUni2: 000440.ffffffff.0
 Width: 362
 VWidth: 720
 Flags: W
@@ -3700,6 +3724,7 @@ EndChar
 
 StartChar: x
 Encoding: 120 120 87
+AltUni2: 000445.ffffffff.0
 Width: 377
 VWidth: 720
 Flags: W
@@ -6786,6 +6811,66 @@ SplineSet
  143 183 109 178 73 178 c 0xa0
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: Iotadieresis
+Encoding: 938 938 192
+Width: 198
+Flags: H
+LayerCount: 2
+Fore
+Refer: 102 168 N 1 0 0 1 -105 43 2
+Refer: 40 73 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0407
+Encoding: 1031 1031 193
+Width: 198
+Flags: H
+LayerCount: 2
+Fore
+Refer: 102 168 N 1 0 0 1 -105 43 2
+Refer: 40 73 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0451
+Encoding: 1105 1105 194
+Width: 368
+Flags: H
+LayerCount: 2
+Fore
+Refer: 102 168 N 1 0 0 1 36 8 2
+Refer: 68 101 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0457
+Encoding: 1111 1111 195
+Width: 315
+Flags: H
+LayerCount: 2
+Fore
+Refer: 102 168 N 1 0 0 1 -44 -24 2
+Refer: 168 305 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0401
+Encoding: 1025 1025 196
+Width: 286
+Flags: H
+LayerCount: 2
+Fore
+Refer: 102 168 N 0.950483 0 0 0.750659 -3.13557 189.98 2
+Refer: 36 69 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0400
+Encoding: 1024 1024 197
+Width: 286
+Flags: H
+LayerCount: 2
+Fore
+Refer: 181 768 N 0.928954 0 0 0.931677 41.7065 62.4099 2
+Refer: 36 69 N 1 0 0 0.980676 0 -0.463768 3
 EndChar
 EndChars
 EndSplineFont
