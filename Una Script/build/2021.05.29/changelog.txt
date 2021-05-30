@@ -1,0 +1,17 @@
+2020.07.11 (0001.0000 in metadata)
+- Initial release
+- Added 0000 Basic Latin coverage
+- Initial kerning tables
+
+2020.10.02
+- Added 0080 Latin-1 Supplement coverage
+- Fixed outline errors
+- Added U+007E TILDE missing from 0000
+- Added some combining accents (U+0300-0303, U+0308, U+030A, and U+0327)
+
+2020.10.04
+- Fixed U+00FE LATIN SMALL LETTER THORN (was duplicate of U+00DE LATIN CAPITAL LETTER THORN)
+- Built with OpenType data, including old style kerning table
+
+2021.05.29
+- Fixed font metrics
