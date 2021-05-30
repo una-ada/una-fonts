@@ -1,11 +1,11 @@
 SplineFontDB: 3.2
-FontName: unaScript
-FullName: Una Script
-FamilyName: Una
+FontName: UnaScript-Regular
+FullName: Una Script Regular
+FamilyName: Una Script
 Weight: Regular
-Copyright: Lol, take it, see if I fucking care. - Una Ada
+Copyright: This work (Una Script by Una Ada) is free of known copyright restrictions.
 UComments: "2020-7-9: Created with FontForge (http://fontforge.org)"
-Version: 2020.10.04
+Version: 2021.05.30
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1594321298
-ModificationTime: 1622355850
+ModificationTime: 1622409007
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
@@ -40,7 +40,7 @@ OS2WinDescent: 980
 OS2WinDOffset: 0
 HheadAscent: 980
 HheadAOffset: 0
-HheadDescent: 240
+HheadDescent: 980
 HheadDOffset: 0
 OS2CapHeight: 740
 OS2XHeight: 500
@@ -76,7 +76,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 52 26 10
+WinInfo: 0 26 10
 BeginPrivate: 2
 BlueValues 32 [-20 30 500 520 720 760 940 980]
 BlueScale 4 0.05
@@ -1390,7 +1390,7 @@ EndChar
 
 StartChar: A
 Encoding: 65 65 32
-AltUni2: 000391.ffffffff.0 000410.ffffffff.0
+AltUni2: 000410.ffffffff.0 000391.ffffffff.0
 Width: 788
 VWidth: 1263
 Flags: W
@@ -1429,7 +1429,7 @@ EndChar
 
 StartChar: B
 Encoding: 66 66 33
-AltUni2: 000392.ffffffff.0 000412.ffffffff.0
+AltUni2: 000412.ffffffff.0 000392.ffffffff.0
 Width: 850
 VWidth: 1289
 Flags: W
@@ -1547,7 +1547,7 @@ EndChar
 
 StartChar: E
 Encoding: 69 69 36
-AltUni2: 000395.ffffffff.0 000415.ffffffff.0
+AltUni2: 000415.ffffffff.0 000395.ffffffff.0
 Width: 574
 VWidth: 1257
 Flags: W
@@ -1675,7 +1675,7 @@ EndChar
 
 StartChar: H
 Encoding: 72 72 39
-AltUni2: 000397.ffffffff.0 00041d.ffffffff.0
+AltUni2: 00041d.ffffffff.0 000397.ffffffff.0
 Width: 806
 VWidth: 1261
 Flags: W
@@ -1713,7 +1713,7 @@ EndChar
 
 StartChar: I
 Encoding: 73 73 40
-AltUni2: 000399.ffffffff.0 000406.ffffffff.0
+AltUni2: 000406.ffffffff.0 000399.ffffffff.0
 Width: 396
 VWidth: 1253
 Flags: W
@@ -1778,7 +1778,7 @@ EndChar
 
 StartChar: K
 Encoding: 75 75 42
-AltUni2: 00039a.ffffffff.0 00041a.ffffffff.0
+AltUni2: 00041a.ffffffff.0 00039a.ffffffff.0
 Width: 982
 VWidth: 1278
 Flags: W
@@ -1847,7 +1847,7 @@ EndChar
 
 StartChar: M
 Encoding: 77 77 44
-AltUni2: 00039c.ffffffff.0 00041c.ffffffff.0
+AltUni2: 00041c.ffffffff.0 00039c.ffffffff.0
 Width: 918
 VWidth: 1274
 Flags: W
@@ -1927,7 +1927,7 @@ EndChar
 
 StartChar: O
 Encoding: 79 79 46
-AltUni2: 00039f.ffffffff.0 00041e.ffffffff.0
+AltUni2: 00041e.ffffffff.0 00039f.ffffffff.0
 Width: 762
 VWidth: 1265
 Flags: W
@@ -1965,7 +1965,7 @@ EndChar
 
 StartChar: P
 Encoding: 80 80 47
-AltUni2: 0003a1.ffffffff.0 000420.ffffffff.0
+AltUni2: 000420.ffffffff.0 0003a1.ffffffff.0
 Width: 630
 VWidth: 1246
 Flags: W
@@ -2153,7 +2153,7 @@ EndChar
 
 StartChar: T
 Encoding: 84 84 51
-AltUni2: 0003a4.ffffffff.0 000422.ffffffff.0
+AltUni2: 000422.ffffffff.0 0003a4.ffffffff.0
 Width: 710
 VWidth: 1246
 Flags: W
@@ -2298,7 +2298,7 @@ EndChar
 
 StartChar: X
 Encoding: 88 88 55
-AltUni2: 0003a7.ffffffff.0 000425.ffffffff.0
+AltUni2: 000425.ffffffff.0 0003a7.ffffffff.0
 Width: 717
 VWidth: 1255
 Flags: W
@@ -3194,7 +3194,7 @@ EndChar
 
 StartChar: o
 Encoding: 111 111 78
-AltUni2: 0003bf.ffffffff.0 00043e.ffffffff.0
+AltUni2: 00043e.ffffffff.0 0003bf.ffffffff.0
 Width: 728
 VWidth: 1306
 Flags: W
