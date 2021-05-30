@@ -2,24 +2,8 @@
 
 ## TODO
 
-### Immediate Updates
-
-- [ ] Create "Una Mono"
-	- [ ] Design EM-square template
-	- [ ] Draw glyph designs
-	- [ ] Scan designs
-	- [ ] Vectorize glyphs
-	- [ ] Expand and resize vectors
-	- [ ] Import vectors to FontForge
-	- [ ] Fix vector path errors
-	- [ ] Adjust metrics <br/>
-		&rarr; No kerning with monospace?
-	- [ ] Design sample image
-	- [ ] Publish blog and distribute
-	- [ ] Add to [una-ada.github.io](https://una-ada.github.io)
-- [ ] Fix "Una Nota" kerning
-- [ ] Write specimen pages
-	- [ ] Landing sections
+- [ ] Write specimen page
+	- [ ] Landing section
 	- [ ] Full description
 	- [ ] Technical details
 		- [ ] OpenType features
@@ -27,17 +11,34 @@
 		- [ ] License
 	- [ ] URLs and CSS declarations
 	- [ ] Changelog
-- [ ] Update [README](/)
-
-### Future Updates
-
-- [ ] Extend "Una Script" language coverage
+- [ ] Extend language coverage
 	- [ ] 0370 Greek and Coptic
 	- [ ] 0400 Cyrillic
 	- [ ] 3040 Hiragana
 	- [ ] 30A0 Katakana
-- [ ] Add italic font style to "Una Script"
-- [ ] Create "Una Math" <br/>
-	&rarr; For stylistic consistency with LaTeX rending
-- [ ] Create "Una Regular" <br/>
-	&rarr; "Una Script" but with more common x-height and descenders
+- [ ] Add italic font style
+- [ ] Update [README](/)
+
+## Changelog
+
+[Version 2021.05.30](/old/2021.05.30/)
+- Fixed metrics metadata
+- Updated font names
+
+[Version 2021.05.29](/old/2021.05.29/)
+- Fixed font metrics
+
+[Version 2020.10.04](/old/2021.10.04/)
+- Fixed U+00FE LATIN SMALL LETTER THORN (was duplicate of U+00DE LATIN CAPITAL LETTER THORN)
+- Built with OpenType data, including old style kerning table
+
+[Version 2020.10.02](/old/2021.10.02/)
+- Added 0080 Latin-1 Supplement coverage
+- Fixed outline errors
+- Added U+007E TILDE missing from 0000
+- Added some combining accents (U+0300-0303, U+0308, U+030A, and U+0327)
+
+[Version 2020.07.11](/old/2020.07.11/) (0001.0000 in metadata)
+- Initial release
+- Added 0000 Basic Latin coverage
+- Initial kerning tables
