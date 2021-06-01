@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1594321298
-ModificationTime: 1622409007
+ModificationTime: 1622531445
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
@@ -70,7 +70,7 @@ KernClass2: 10 10 "'kern' Horizontal Kerning in Latin lookup 0-1"
  7 section
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} -100 {} -100 {} -80 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -160 {} -180 {} 0 {} 0 {} -160 {} -200 {} 0 {} -60 {} 0 {} -100 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -200 {} -80 {} 0 {} -160 {} -160 {} -140 {} 0 {} 0 {} 0 {} -200 {} -320 {} -340 {} -280 {} -400 {} 0 {} -380 {} -260 {} -180 {} 0 {} -60 {} -200 {} -200 {} -60 {} -300 {} 0 {} -240 {} 0 {} -160 {} 0 {} 0 {} -60 {} -80 {} 0 {} -140 {} -100 {} -160 {} 0 {} 0 {} 0 {} 0 {} -120 {} -140 {} 0 {} -160 {} 0 {} -160 {} -140 {} -120 {}
 LangName: 1033
-Encoding: UnicodeFull
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -1390,7 +1390,7 @@ EndChar
 
 StartChar: A
 Encoding: 65 65 32
-AltUni2: 000410.ffffffff.0 000391.ffffffff.0
+AltUni2: 000391.ffffffff.0 000410.ffffffff.0
 Width: 788
 VWidth: 1263
 Flags: W
@@ -1429,7 +1429,7 @@ EndChar
 
 StartChar: B
 Encoding: 66 66 33
-AltUni2: 000412.ffffffff.0 000392.ffffffff.0
+AltUni2: 000392.ffffffff.0 000412.ffffffff.0
 Width: 850
 VWidth: 1289
 Flags: W
@@ -1547,7 +1547,7 @@ EndChar
 
 StartChar: E
 Encoding: 69 69 36
-AltUni2: 000415.ffffffff.0 000395.ffffffff.0
+AltUni2: 000395.ffffffff.0 000415.ffffffff.0
 Width: 574
 VWidth: 1257
 Flags: W
@@ -1675,7 +1675,7 @@ EndChar
 
 StartChar: H
 Encoding: 72 72 39
-AltUni2: 00041d.ffffffff.0 000397.ffffffff.0
+AltUni2: 000397.ffffffff.0 00041d.ffffffff.0
 Width: 806
 VWidth: 1261
 Flags: W
@@ -1713,7 +1713,7 @@ EndChar
 
 StartChar: I
 Encoding: 73 73 40
-AltUni2: 000406.ffffffff.0 000399.ffffffff.0
+AltUni2: 000399.ffffffff.0 000406.ffffffff.0
 Width: 396
 VWidth: 1253
 Flags: W
@@ -1778,7 +1778,7 @@ EndChar
 
 StartChar: K
 Encoding: 75 75 42
-AltUni2: 00041a.ffffffff.0 00039a.ffffffff.0
+AltUni2: 00039a.ffffffff.0 00041a.ffffffff.0
 Width: 982
 VWidth: 1278
 Flags: W
@@ -1847,7 +1847,7 @@ EndChar
 
 StartChar: M
 Encoding: 77 77 44
-AltUni2: 00041c.ffffffff.0 00039c.ffffffff.0
+AltUni2: 00039c.ffffffff.0 00041c.ffffffff.0
 Width: 918
 VWidth: 1274
 Flags: W
@@ -1927,7 +1927,7 @@ EndChar
 
 StartChar: O
 Encoding: 79 79 46
-AltUni2: 00041e.ffffffff.0 00039f.ffffffff.0
+AltUni2: 00039f.ffffffff.0 00041e.ffffffff.0
 Width: 762
 VWidth: 1265
 Flags: W
@@ -1965,7 +1965,7 @@ EndChar
 
 StartChar: P
 Encoding: 80 80 47
-AltUni2: 000420.ffffffff.0 0003a1.ffffffff.0
+AltUni2: 0003a1.ffffffff.0 000420.ffffffff.0
 Width: 630
 VWidth: 1246
 Flags: W
@@ -2153,7 +2153,7 @@ EndChar
 
 StartChar: T
 Encoding: 84 84 51
-AltUni2: 000422.ffffffff.0 0003a4.ffffffff.0
+AltUni2: 0003a4.ffffffff.0 000422.ffffffff.0
 Width: 710
 VWidth: 1246
 Flags: W
@@ -2298,7 +2298,7 @@ EndChar
 
 StartChar: X
 Encoding: 88 88 55
-AltUni2: 000425.ffffffff.0 0003a7.ffffffff.0
+AltUni2: 0003a7.ffffffff.0 000425.ffffffff.0
 Width: 717
 VWidth: 1255
 Flags: W
@@ -2535,8 +2535,9 @@ Encoding: 94 94 61
 AltUni2: 000302.ffffffff.0
 Width: 686
 VWidth: 1097
-Flags: W
-HStem: 726 20G<319 340>
+GlyphClass: 2
+Flags: HWO
+HStem: 726 20G<305.667 326.667>
 AnchorPoint: "top" 346 342 mark 0
 LayerCount: 2
 Fore
@@ -3194,7 +3195,7 @@ EndChar
 
 StartChar: o
 Encoding: 111 111 78
-AltUni2: 00043e.ffffffff.0 0003bf.ffffffff.0
+AltUni2: 0003bf.ffffffff.0 00043e.ffffffff.0
 Width: 728
 VWidth: 1306
 Flags: W
@@ -5690,7 +5691,7 @@ StartChar: Acircumflex
 Encoding: 194 194 139
 Width: 788
 VWidth: 2036
-Flags: W
+Flags: HW
 HStem: 4 21G<87.5 118> 737 20G<346.5 390> 1067 20G<335 356>
 LayerCount: 2
 Fore
@@ -5836,7 +5837,7 @@ StartChar: Ecircumflex
 Encoding: 202 202 144
 Width: 574
 VWidth: 2003
-Flags: W
+Flags: HW
 HStem: 11 180<236.96 376.504> 657 180<204.328 314.587> 1183.94 18.8412G<185.667 206.184>
 VStem: 20 180<575.469 647.741> 36 180<223.606 324.934>
 LayerCount: 2
@@ -5878,7 +5879,7 @@ StartChar: Icircumflex
 Encoding: 206 206 147
 Width: 396
 VWidth: 1990
-Flags: W
+Flags: HW
 HStem: 718 20G<83.5 126> 1060.17 18.3793G<81.671 100.609>
 VStem: 20 170<646.427 704.985> 202 174<146.163 232.562>
 LayerCount: 2
@@ -5934,7 +5935,7 @@ StartChar: Ocircumflex
 Encoding: 212 212 151
 Width: 762
 VWidth: 2000
-Flags: W
+Flags: HW
 HStem: 484 254<232.879 337.295> 512 180<357.059 507.597> 1140 20G<305 326>
 VStem: 562 180<342.413 465.538>
 LayerCount: 2
@@ -5990,7 +5991,7 @@ StartChar: Ucircumflex
 Encoding: 219 219 155
 Width: 740
 VWidth: 1987
-Flags: W
+Flags: HW
 HStem: 13 21G<374 500> 729 20G<80 133> 1192.15 18.6266G<286.618 307>
 VStem: 20 180<498.055 715.949> 538 182<221.871 496.381>
 LayerCount: 2
@@ -6045,7 +6046,7 @@ StartChar: acircumflex
 Encoding: 226 226 159
 Width: 872
 VWidth: 2035
-Flags: W
+Flags: HW
 HStem: -12 176<206.387 362.539> 4 180<716.57 819.383> 346 180<266.406 433.22> 942 20G<313 334>
 LayerCount: 2
 Fore
@@ -6220,7 +6221,7 @@ StartChar: ecircumflex
 Encoding: 234 234 165
 Width: 736
 VWidth: 2038
-Flags: W
+Flags: HW
 HStem: -62 180<275.636 535.812> 422 180<366 435.231> 1018 20G<323 344>
 LayerCount: 2
 Fore
@@ -6290,7 +6291,7 @@ StartChar: icircumflex
 Encoding: 238 238 169
 Width: 504
 VWidth: 1748
-Flags: W
+Flags: HW
 HStem: -5 21G<200 264> 495 20G<108 132> 931.726 19.0558G<80.1856 100.21>
 LayerCount: 2
 Fore
@@ -6345,7 +6346,7 @@ StartChar: ocircumflex
 Encoding: 244 244 173
 Width: 728
 VWidth: 2034
-Flags: W
+Flags: HW
 HStem: -12 180<276.454 445.263> 1003.48 19.3796G<326 347>
 VStem: 20 180<233.14 344.689> 528 180<234.373 331.37>
 LayerCount: 2
@@ -6401,7 +6402,7 @@ StartChar: ucircumflex
 Encoding: 251 251 177
 Width: 602
 VWidth: 2035
-Flags: W
+Flags: HW
 HStem: -8 180<282.291 344.671> 494 20G<78 134> 930.821 18.2595G<263.576 283.1>
 VStem: 20 180<318.742 482.646> 372 180<201.099 386.485>
 LayerCount: 2

@@ -19,3 +19,6 @@
 2021.05.30
 - Fixed metrics metadata
 - Updated font names
+
+2021.06.01
+- Fixed spacing on U+005E CIRCUMFLEX ACCENT in webfonts
