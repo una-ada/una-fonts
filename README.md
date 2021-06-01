@@ -17,7 +17,7 @@
 	- [ ] 3040 Hiragana
 	- [ ] 30A0 Katakana
 - [ ] Add italic font style
-- [ ] Update [README](/)
+- [ ] Update [README](README.md)
 
 ## Changelog
 
