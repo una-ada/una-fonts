@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>Una Script</string>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>styleMapFamilyName</key>
+    <string>Una Script Regular</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
+    <key>versionMajor</key>
+    <integer>2021</integer>
+    <key>versionMinor</key>
+    <integer>5</integer>
+    <key>copyright</key>
+    <string>This work (Una Script by Una Ada) is free of known copyright restrictions.</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>capHeight</key>
+    <integer>740</integer>
+    <key>xHeight</key>
+    <integer>500</integer>
+    <key>ascender</key>
+    <integer>760</integer>
+    <key>descender</key>
+    <integer>-240</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>note</key>
+    <string>2020-7-9: Created with FontForge (http://fontforge.org)</string>
+    <key>openTypeHeadCreated</key>
+    <string>2020/07/09 19:01:38</string>
+    <key>openTypeHheaAscender</key>
+    <integer>980</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>980</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>640</integer>
+    <key>openTypeNameVersion</key>
+    <string>Version 2021.</string>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>PfEd</string>
+    <key>openTypeOS2FamilyClass</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>980</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-980</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>640</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>1200</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>980</integer>
+    <key>postscriptFontName</key>
+    <string>UnaScript-Regular</string>
+    <key>postscriptFullName</key>
+    <string>Una Script Regular</string>
+    <key>postscriptWeightName</key>
+    <string>Regular</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-20</integer>
+      <integer>30</integer>
+      <integer>500</integer>
+      <integer>520</integer>
+      <integer>720</integer>
+      <integer>760</integer>
+      <integer>940</integer>
+      <integer>980</integer>
+    </array>
+    <key>postscriptBlueScale</key>
+    <real>0.05</real>
+    <key>guidelines</key>
+    <array/>
+  </dict>
+</plist>

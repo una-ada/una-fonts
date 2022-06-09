@@ -1,0 +1,164 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+
+# GPOS 
+
+
+lookup abvmAboveBaseMarkinLatinlookup1 {
+  lookupflag 0;
+  markClass [\cedilla ] <anchor 100 -44> @bottom;
+  markClass [\asciicircum ] <anchor 346 342> @top;
+  markClass [\asciitilde ] <anchor 300 338> @top;
+  markClass [\dieresis ] <anchor 320 520> @top;
+  markClass [\degree ] <anchor 306 394> @top;
+  markClass [\acute ] <anchor 112 610> @top;
+  pos base [\A ] <anchor 400 44> mark @bottom
+	<anchor 362 753> mark @top;
+  pos base [\I ] <anchor 110 732> mark @top
+	<anchor 302 110> mark @bottom;
+  pos base [\O ] <anchor 382 736> mark @top
+	<anchor 408 86> mark @bottom;
+  pos base [\U ] <anchor 292 759> mark @top
+	<anchor 458 9> mark @bottom;
+  pos base [\a ] <anchor 330 522> mark @top
+	<anchor 296 -20> mark @bottom;
+  pos base [\e ] <anchor 392 598> mark @top
+	<anchor 376 -64> mark @bottom;
+  pos base [\o ] <anchor 362 594> mark @top
+	<anchor 358 -20> mark @bottom;
+  pos base [\u ] <anchor 252 530> mark @top
+	<anchor 316 -18> mark @bottom;
+  pos base [\dotlessi ] <anchor 104 509> mark @top
+	<anchor 212 -13> mark @bottom;
+} abvmAboveBaseMarkinLatinlookup1;
+
+lookup kernHorizontalKerninginLatinlookup0 {
+  lookupflag 0;
+    @kc1_first_1 = [\zero \O ];
+    @kc1_first_2 = [\seven \F \P \Y \Yacute ];
+    @kc1_first_3 = [\A \Agrave \Aacute \Atilde \Adieresis \Aring ];
+    @kc1_first_4 = [\T ];
+    @kc1_first_5 = [\a \c \e \m \n \o \r \s \u \v \w \agrave \aacute \atilde \adieresis \aring \egrave 
+	\eacute \edieresis \ograve \oacute \otilde \odieresis \ugrave \uacute 
+	\udieresis ];
+    @kc1_first_6 = [\q ];
+    @kc1_first_7 = [\g \j \y \z \yacute \ydieresis ];
+    @kc1_first_8 = [\b \d \f \h \i \k \l \p \t \x \thorn ];
+    @kc1_first_9 = [\section ];
+    @kc1_second_1 = [\comma \period \underscore ];
+    @kc1_second_2 = [\quotedbl \quotesingle \asterisk \asciicircum \grave ];
+    @kc1_second_3 = [\V \backslash ];
+    @kc1_second_4 = [\a \c \e \o \r \u \v \w \agrave \aacute \acircumflex \atilde \adieresis \aring \egrave 
+	\eacute \ecircumflex \edieresis \ograve \oacute \ocircumflex \otilde 
+	\odieresis \ugrave \uacute \ucircumflex \udieresis ];
+    @kc1_second_5 = [\b \h \i \k \igrave \iacute \idieresis ];
+    @kc1_second_6 = [\j ];
+    @kc1_second_7 = [\T \Y \Yacute ];
+    @kc1_second_8 = [\exclam \numbersign \dollar \percent \ampersand \parenleft \parenright \plus 
+	\hyphen \slash \zero \one \two \three \four \five \six \seven \eight \nine 
+	\colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H 
+	\I \J \K \L \M \N \O \P \Q \R \S \U \W \X \Z \bracketleft \bracketright \d \f \g \l 
+	\m \n \q \s \t \x \braceleft \bar \braceright ];
+    @kc1_second_9 = [\section ];
+    pos @kc1_first_1 @kc1_second_2 -60;
+    pos @kc1_first_1 @kc1_second_5 -100;
+    pos @kc1_first_1 @kc1_second_6 -100;
+    pos @kc1_first_1 @kc1_second_7 -80;
+    pos @kc1_first_2 @kc1_second_1 -100;
+    pos @kc1_first_3 @kc1_second_2 -160;
+    pos @kc1_first_3 @kc1_second_3 -180;
+    pos @kc1_first_3 @kc1_second_6 -160;
+    pos @kc1_first_3 @kc1_second_7 -200;
+    pos @kc1_first_3 @kc1_second_9 -60;
+    pos @kc1_first_4 @kc1_second_1 -100;
+    pos @kc1_first_4 @kc1_second_4 -120;
+    pos @kc1_first_5 @kc1_second_2 -200;
+    pos @kc1_first_5 @kc1_second_3 -80;
+    pos @kc1_first_5 @kc1_second_5 -160;
+    pos @kc1_first_5 @kc1_second_6 -160;
+    pos @kc1_first_5 @kc1_second_7 -140;
+    pos @kc1_first_6 @kc1_second_1 -200;
+    pos @kc1_first_6 @kc1_second_2 -320;
+    pos @kc1_first_6 @kc1_second_3 -340;
+    pos @kc1_first_6 @kc1_second_4 -280;
+    pos @kc1_first_6 @kc1_second_5 -400;
+    pos @kc1_first_6 @kc1_second_7 -380;
+    pos @kc1_first_6 @kc1_second_8 -260;
+    pos @kc1_first_6 @kc1_second_9 -180;
+    pos @kc1_first_7 @kc1_second_1 -60;
+    pos @kc1_first_7 @kc1_second_2 -200;
+    pos @kc1_first_7 @kc1_second_3 -200;
+    pos @kc1_first_7 @kc1_second_4 -60;
+    pos @kc1_first_7 @kc1_second_5 -300;
+    pos @kc1_first_7 @kc1_second_7 -240;
+    pos @kc1_first_7 @kc1_second_9 -160;
+    pos @kc1_first_8 @kc1_second_2 -60;
+    pos @kc1_first_8 @kc1_second_3 -80;
+    pos @kc1_first_8 @kc1_second_5 -140;
+    pos @kc1_first_8 @kc1_second_6 -100;
+    pos @kc1_first_8 @kc1_second_7 -160;
+    pos @kc1_first_9 @kc1_second_2 -120;
+    pos @kc1_first_9 @kc1_second_3 -140;
+    pos @kc1_first_9 @kc1_second_5 -160;
+    pos @kc1_first_9 @kc1_second_7 -160;
+    pos @kc1_first_9 @kc1_second_8 -140;
+    pos @kc1_first_9 @kc1_second_9 -120;
+} kernHorizontalKerninginLatinlookup0;
+
+feature abvm {
+
+ script DFLT;
+     language dflt ;
+      lookup abvmAboveBaseMarkinLatinlookup1;
+
+ script latn;
+     language dflt ;
+      lookup abvmAboveBaseMarkinLatinlookup1;
+} abvm;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T 
+	\U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar 
+	\braceright \space \exclamdown \cent \sterling \currency \yen \brokenbar 
+	\section \copyright \ordfeminine \guillemotleft \logicalnot \registered 
+	\macron \plusminus \uni00B2 \uni00B3 \mu \paragraph \periodcentered \uni00B9 
+	\ordmasculine \guillemotright \onequarter \onehalf \threequarters 
+	\questiondown \AE \Eth \multiply \Oslash \Thorn \germandbls \ae \eth \divide 
+	\oslash \thorn \Agrave \Atilde \Aacute \Acircumflex \Adieresis \Aring \Ccedilla 
+	\Eacute \Ecircumflex \Edieresis \Iacute \Icircumflex \Idieresis \Ntilde \Oacute 
+	\Ocircumflex \Otilde \Odieresis \Uacute \Ucircumflex \Udieresis \Yacute \aacute 
+	\acircumflex \atilde \adieresis \aring \ccedilla \eacute \ecircumflex 
+	\edieresis \iacute \dotlessi \icircumflex \idieresis \ntilde \oacute 
+	\ocircumflex \otilde \odieresis \uacute \ucircumflex \udieresis \yacute 
+	\ydieresis \gravecomb \Egrave \Igrave \egrave \agrave \ugrave \ograve \Ugrave 
+	\Ograve \igrave \uni00AD \Iotadieresis \uni0407 \uni0451 \uni0457 \uni0401 
+	\uni0400 \uni0450 ];
+@GDEF_Mark = [\asciitilde \dieresis \degree \acute \cedilla ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+
+table BASE {
+  HorizAxis.BaseTagList romn;
+  HorizAxis.BaseScriptList
+	latn romn 480;
+} BASE;
+
